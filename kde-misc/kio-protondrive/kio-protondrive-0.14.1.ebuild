@@ -7,7 +7,7 @@
 
 EAPI=8
 
-CXXBRIDGE_PV="1.0.202"
+CXXBRIDGE_PV="1.0.205"
 CRATES="
 	aho-corasick@1.1.5
 	anstream@1.0.0
@@ -19,35 +19,32 @@ CRATES="
 	bitflags@2.13.2
 	block@0.1.6
 	bumpalo@3.20.3
-	cc@1.6.0
+	cc@1.10.0
 	cfg-if@1.0.5
-	clap@4.6.6
 	clap@4.6.7
-	clap_builder@4.6.6
 	clap_builder@4.6.7
-	clap_lex@1.1.0
 	clap_lex@1.1.1
 	codespan-reporting@0.13.1
 	colorchoice@1.0.5
-	cxx-build@1.0.202
-	cxx@1.0.202
-	cxxbridge-cmd@1.0.202
-	cxxbridge-flags@1.0.202
-	cxxbridge-macro@1.0.202
-	defmt-macros@1.1.1
-	defmt-parser@1.0.0
-	defmt@1.1.1
+	cxx-build@1.0.205
+	cxx@1.0.205
+	cxxbridge-cmd@1.0.205
+	cxxbridge-flags@1.0.205
+	cxxbridge-macro@1.0.205
+	defmt-macros@1.2.0
+	defmt-parser@1.1.0
+	defmt@1.2.0
 	env_filter@2.0.0
 	env_logger@0.11.11
 	equivalent@1.0.2
+	equivalent@1.0.3
 	errno@0.3.14
 	fallible-iterator@0.3.0
 	fallible-streaming-iterator@0.1.9
 	fastrand@2.5.0
 	file-id@0.2.3
-	find-msvc-tools@0.1.14
+	find-msvc-tools@0.1.15
 	foldhash@0.2.0
-	fsevent-sys@4.1.0
 	getrandom@0.4.3
 	gettext-rs@0.8.0
 	gettext-sys@0.27.0
@@ -66,7 +63,7 @@ CRATES="
 	kqueue-sys@1.1.2
 	kqueue@1.2.1
 	lazy_static@1.5.1
-	libc@0.2.190
+	libc@0.2.191
 	libsqlite3-sys@0.38.2
 	link-cplusplus@1.0.12
 	linux-raw-sys@0.12.1
@@ -77,8 +74,10 @@ CRATES="
 	mio@1.2.4
 	notify-debouncer-full@0.7.0
 	notify-types@2.1.0
-	notify@8.2.0
+	notify@8.2.1
 	objc-foundation@0.1.1
+	objc2-core-foundation@0.3.2
+	objc2-core-services@0.3.2
 	objc@0.2.7
 	objc_id@0.1.1
 	once_cell@1.21.4
@@ -101,15 +100,15 @@ CRATES="
 	serde@1.0.229
 	serde_core@1.0.229
 	serde_derive@1.0.229
-	serde_json@1.0.151
+	serde_json@1.0.154
 	serde_spanned@1.1.2
 	shlex@2.0.1
-	smallvec@1.16.2
+	smallvec@1.16.4
 	sqlite-wasm-rs@0.5.5
 	strsim@0.11.1
 	syn@2.0.119
-	syn@3.0.5
-	syn@3.0.6
+	syn@3.0.7
+	syn@3.0.9
 	temp-dir@0.1.16
 	tempfile@3.27.0
 	termcolor@1.4.1
@@ -119,8 +118,8 @@ CRATES="
 	toml_datetime@1.1.2+spec-1.1.0
 	toml_parser@1.1.5+spec-1.1.0
 	toml_writer@1.1.3+spec-1.1.0
-	unicode-ident@1.0.24
 	unicode-ident@1.0.26
+	unicode-ident@1.0.27
 	unicode-width@0.2.2
 	utf8parse@0.2.2
 	vcpkg@0.2.15
