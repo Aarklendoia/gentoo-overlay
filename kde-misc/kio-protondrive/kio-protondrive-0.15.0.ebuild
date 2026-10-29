@@ -73,7 +73,7 @@ CRATES="
 	memchr@2.8.3
 	mio@1.2.4
 	notify-debouncer-full@0.7.0
-	notify-types@2.1.0
+	notify-types@2.2.0
 	notify@8.2.1
 	objc-foundation@0.1.1
 	objc2-core-foundation@0.3.2
@@ -93,7 +93,7 @@ CRATES="
 	regex@1.13.1
 	rsqlite-vfs@0.1.1
 	rusqlite@0.40.2
-	rustix@1.1.5
+	rustix@1.1.6
 	rustversion@1.0.23
 	same-file@1.0.6
 	scratch@1.0.9
@@ -121,6 +121,7 @@ CRATES="
 	unicode-ident@1.0.26
 	unicode-ident@1.0.27
 	unicode-width@0.2.2
+	unicode-width@0.2.3
 	utf8parse@0.2.2
 	vcpkg@0.2.15
 	walkdir@2.5.0
