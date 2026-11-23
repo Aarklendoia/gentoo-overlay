@@ -15,15 +15,15 @@ CRATES="
 	anstyle-query@1.1.5
 	anstyle-wincon@3.0.11
 	anstyle@1.0.14
-	bitflags@1.3.2
 	bitflags@2.13.2
 	block@0.1.6
-	bumpalo@3.20.3
-	cc@1.10.0
+	cc@1.11.3
 	cfg-if@1.0.5
 	clap@4.6.7
+	clap@4.6.9
 	clap_builder@4.6.7
 	clap_lex@1.1.1
+	clap_lex@1.1.2
 	codespan-reporting@0.13.1
 	colorchoice@1.0.5
 	cxx-build@1.0.205
@@ -31,14 +31,11 @@ CRATES="
 	cxxbridge-cmd@1.0.205
 	cxxbridge-flags@1.0.205
 	cxxbridge-macro@1.0.205
-	defmt-macros@1.2.0
-	defmt-parser@1.1.0
-	defmt@1.2.0
-	env_filter@2.0.0
-	env_logger@0.11.11
+	env_filter@2.1.0
+	env_logger@0.11.12
 	equivalent@1.0.2
 	equivalent@1.0.3
-	errno@0.3.14
+	errno@0.3.15
 	fallible-iterator@0.3.0
 	fallible-streaming-iterator@0.1.9
 	fastrand@2.5.0
@@ -48,33 +45,32 @@ CRATES="
 	getrandom@0.4.3
 	gettext-rs@0.8.0
 	gettext-sys@0.27.0
-	hashbrown@0.16.1
 	hashbrown@0.17.1
+	hashbrown@0.17.2
 	hashlink@0.12.2
 	indexmap@2.14.2
 	inotify-sys@0.1.8
 	inotify@0.11.5
 	is_terminal_polyfill@1.70.2
-	itoa@1.0.18
-	jiff-core@0.1.1
-	jiff-static@0.2.38
-	jiff@0.2.38
-	js-sys@0.3.106
+	itoa@1.0.19
+	jiff-core@1.0.1
+	jiff-static@1.0.2
+	jiff@1.0.2
 	kqueue-sys@1.1.2
 	kqueue@1.2.1
 	lazy_static@1.5.1
 	libc@0.2.191
-	libsqlite3-sys@0.38.2
+	libsqlite3-sys@0.40.0
 	link-cplusplus@1.0.12
 	linux-raw-sys@0.12.1
 	locale_config@0.3.0
-	log@0.4.34
+	log@0.4.35
 	malloc_buf@0.0.6
 	memchr@2.8.3
-	mio@1.2.4
+	mio@1.2.5
 	notify-debouncer-full@0.7.0
-	notify-types@2.2.0
-	notify@8.2.1
+	notify-types@2.3.1
+	notify@8.2.2
 	objc-foundation@0.1.1
 	objc2-core-foundation@0.3.2
 	objc2-core-services@0.3.2
@@ -88,48 +84,42 @@ CRATES="
 	proc-macro2@1.0.107
 	quote@1.0.47
 	r-efi@6.0.0
-	regex-automata@0.4.18
-	regex-syntax@0.8.11
-	regex@1.13.1
-	rsqlite-vfs@0.1.1
-	rusqlite@0.40.2
+	regex-automata@0.4.19
+	regex-syntax@0.8.12
+	regex@1.13.2
+	rsqlite-vfs@0.2.0
+	rusqlite@0.43.0
 	rustix@1.1.6
-	rustversion@1.0.23
 	same-file@1.0.6
 	scratch@1.0.9
 	serde@1.0.229
 	serde_core@1.0.229
 	serde_derive@1.0.229
 	serde_json@1.0.154
-	serde_spanned@1.1.2
+	serde_spanned@1.1.3
 	shlex@2.0.1
-	smallvec@1.16.4
-	sqlite-wasm-rs@0.5.5
+	smallvec@1.16.6
+	sqlite-wasm-rs@0.6.3
 	strsim@0.11.1
-	syn@2.0.119
+	syn@3.0.10
 	syn@3.0.7
-	syn@3.0.9
 	temp-dir@0.1.16
 	tempfile@3.27.0
 	termcolor@1.4.1
 	thiserror-impl@2.0.21
 	thiserror@2.0.21
-	toml@1.1.8+spec-1.1.0
-	toml_datetime@1.1.2+spec-1.1.0
-	toml_parser@1.1.5+spec-1.1.0
-	toml_writer@1.1.3+spec-1.1.0
+	toml@1.2.2+spec-1.1.0
+	toml_datetime@1.1.3+spec-1.1.0
+	toml_parser@1.1.6+spec-1.1.0
+	toml_writer@1.2.0+spec-1.1.0
 	unicode-ident@1.0.26
 	unicode-ident@1.0.27
 	unicode-width@0.2.2
 	unicode-width@0.2.3
 	utf8parse@0.2.2
 	vcpkg@0.2.15
-	walkdir@2.5.0
+	walkdir@2.5.1
 	wasi@0.11.1+wasi-snapshot-preview1
-	wasm-bindgen-macro-support@0.2.129
-	wasm-bindgen-macro@0.2.129
-	wasm-bindgen-shared@0.2.129
-	wasm-bindgen@0.2.129
 	winapi-i686-pc-windows-gnu@0.4.0
 	winapi-util@0.1.11
 	winapi-x86_64-pc-windows-gnu@0.4.0
@@ -146,7 +136,7 @@ CRATES="
 	windows_x86_64_gnu@0.53.1
 	windows_x86_64_gnullvm@0.53.1
 	windows_x86_64_msvc@0.53.1
-	winnow@1.0.4
+	winnow@1.0.5
 	zmij@1.0.23
 "
 # Corrosion runs `cargo install cxxbridge-cmd` at configure time unless a
